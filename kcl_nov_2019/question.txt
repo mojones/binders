@@ -1,0 +1,27 @@
+Experiment: In vivo calcium imaging of dorsal root ganglia neurons, applying mechanical (50, 100, 150g of force) and thermal stimulation(10oC and 50oC for 30sec each). When a neuron responds to the stimulation the fluorescence (intracel-
+lular calcium increases). Upon the death of the animal at the end of the experiment, all neurons became fluorescent. The timelapse wa aligned and all cells (ROIs) were circled. 
+
+
+background (mean grey value of a background area - rows are frames)
+
+rawdata (mean grey value of all ROIs - columns are #cell and rows are frames)
+
+events (frames - first row is the name of stimulation, second row is the frame that the stimulation began and the third row is the frame that the stimulation ended)
+
+timing (seconds between frames)
+
+size (area of the ROIs)
+
+
+QUESTIONS: - Subtract the background signal from the rawdata of each ROI, to normalise data
+           - Calculate the amplitude of the neuronal response: ΔF/F0 = (Ft-F0)/F0
+              Ft=fluorescence recorded for each ROI at each timepoint
+              F0=baseline fluorescence signal averaged over the baseline period corresponding to the lowest fluorescence signal over the recording period
+           - Responding neurons to stimulation: ΔF/F0 is beyond the threshold of 3 times standard deviation of baseline
+
+
+
+
+
+
+
