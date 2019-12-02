@@ -1,5 +1,7 @@
 ## Copy and paste into a python interpreter after running `import helpy`
 
+Requires `colorama` for terminal colours.
+
 ### Used the wrong variable NameError
 
 ```
